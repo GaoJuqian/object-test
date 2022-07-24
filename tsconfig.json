@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "declaration": true,
+        "declarationDir": "dist/types",
+        "target": "ES5",
+        "useDefineForClassFields": true,
+        "module": "ES2015",
+        "moduleResolution": "node",
+        "strict": true,
+        // "jsx": "preserve",
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "lib": ["esnext", "dom"],
+        "skipLibCheck": true,
+    },
+    // "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "test/**/*.ts"],
+    "exclude": ["**/node_modules/**"]
+}
