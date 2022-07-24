@@ -13,6 +13,10 @@
     "toEqual"
   ],
   "homepage": "https://github.com/GaoJuqian/object-test",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaoJuqian/object-test.git"
+  },
   "author": "gaojuqian",
   "license": "ISC",
   "dependencies": {
