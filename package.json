@@ -30,6 +30,7 @@
     "pnpm": "^7.6.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "@gaojuqian:registry": "https://npm.pkg.github.com"
   }
 }
