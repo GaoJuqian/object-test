@@ -37,8 +37,11 @@ jobs:
           node-version: 16
           cache: 'pnpm'
       - name: Setup npmrc
-        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
+        run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN }" > .npmrc
+      - name: cat npmrc
+        run: cat .npmrc
       - name: publish
-        run: npm publish
+        run: pnpm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.ACCESS_TOKEN}}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
