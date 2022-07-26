@@ -13,8 +13,11 @@ npm i @gaojuqian/object-test
 import { expect } from "@gaojuqian/object-test";
 
 
-expect({ dasd: 123 }).toEqual({ dasd: 123 });
+expect({ abc: 123 }).toEqual({ abc: 123 });
 // -> true
+
+expect({ abc: 123 }).not.toEqual({ abc: 123 });
+// -> false
 ```
 
 
