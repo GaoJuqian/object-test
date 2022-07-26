@@ -1,6 +1,6 @@
 {
   "name": "@gaojuqian/object-test",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "object equal",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
